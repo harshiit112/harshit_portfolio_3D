@@ -17,17 +17,17 @@ export const myProjects = [
         {
           id: 1,
           name: "React.js",
-          path: "/public/assets/logos/icons8-react-native.svg",
+          path: "/assets/logos/icons8-react-native.svg",
         },
         {
           id: 2,
           name: "JavaScript",
-          path: "/public/assets/logos/icons8-javascript.svg",
+          path: "/assets/logos/icons8-javascript.svg",
         },
         {
           id: 3,
           name: "Express.js",
-          path: "/public/assets/logos/icons8-express-js.svg",
+          path: "/assets/logos/icons8-express-js.svg",
         },
         {
           id: 4,
