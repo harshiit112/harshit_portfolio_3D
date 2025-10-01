@@ -8,7 +8,7 @@ export const myProjects = [
         "Built a scalable web application using React.js for the frontend and Express.js for backend services, integrating real-time communication features for dynamic user engagement",
         // "Implemented secure authentication and robust database management to ensure privacy and data integrity.",
         "Designed a responsive user interface with Tailwind CSS, enhancing user experience across devices",
-        "Added real-time video streaming capabilities using Stream and developed instant chat features, supporting efficient and interactive collaboration.",
+        // "Added real-time video streaming capabilities using Stream and developed instant chat features, supporting efficient and interactive collaboration.",
       ],
       href: "https://chitchat-idng.onrender.com/login",
       logo: "",
