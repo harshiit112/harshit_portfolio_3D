@@ -40,9 +40,14 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
-              {"chitchat-idng.onrender.com"}
-              <img src="assets/arrow-up.svg" className="size-4" href={href} />
+            <a
+              href={href}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+            >
+              {href || "Visit project"}
+              <img src="assets/arrow-up.svg" className="size-4" />
             </a>
           </div>
         </div>

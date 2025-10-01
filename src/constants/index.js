@@ -10,7 +10,7 @@ export const myProjects = [
         "Designed a responsive user interface with Tailwind CSS, enhancing user experience across devices",
         "Added real-time video streaming capabilities using Stream and developed instant chat features, supporting efficient and interactive collaboration.",
       ],
-      href: "",
+      href: "https://chitchat-idng.onrender.com/login",
       logo: "",
       image: "/assets/projects/Screenshot (42).png",
       tags: [
@@ -36,43 +36,40 @@ export const myProjects = [
         },
       ],
     },
-  //   {
-  //     id: 2,
-  //     title: "Authentication & Authorization System",
-  //     description:
-  //       "A secure authentication and authorization system using Auth0 for seamless user management.",
-  //     subDescription: [
-  //       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-  //       "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-  //       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-  //       "Connected to a secure SQLite database for user data storage.",
-  //     ],
-  //     href: "",
-  //     logo: "",
-  //     image: "/assets/projects/auth-system.jpg",
-  //     tags: [
-  //       {
-  //         id: 1,
-  //         name: "Auth0",
-  //         path: "/assets/logos/auth0.svg",
-  //       },
-  //       {
-  //         id: 2,
-  //         name: "React",
-  //         path: "/assets/logos/react.svg",
-  //       },
-  //       {
-  //         id: 3,
-  //         name: "SQLite",
-  //         path: "/assets/logos/sqlite.svg",
-  //       },
-  //       {
-  //         id: 4,
-  //         name: "TailwindCSS",
-  //         path: "/assets/logos/tailwindcss.svg",
-  //       },
-  //     ],
-  //   },
+    {
+      id: 2,
+      title: "Slack Clone with Video Call",
+      description:
+        "A real-time team communication platform inspired by Slack, built to enhance collaboration with modern messaging and video conferencing features.",
+      subDescription: [
+        "I developed a Slack-inspired collaboration app with real-time chat and video calling. It uses Clerk for secure authentication with RBAC, a responsive React + Tailwind CSS frontend, and a Node.js/Express backend connected to MongoDB for scalable data storage. The project highlights my skills in authentication, UI design, and real-time communication.",
+      ],
+      href: "https://alpha-slack-frontend.vercel.app/auth",
+      logo: "",
+      image: "/assets/projects/Screenshot (47).png",
+      tags: [
+        {
+          id: 1,
+          name: "Clerk",
+          path: "/assets/logos/idC1jR8p-G_logos.jpeg",
+        },
+        {
+          id: 2,
+          name: "React",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 3,
+          name: "JavaScript",
+          path: "/assets/logos/icons8-javascript.svg",
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: "/assets/logos/tailwindcss.svg",
+        },
+      ],
+    },
   //   {
   //     id: 3,
   //     title: "Blazor Web App",
