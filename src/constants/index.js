@@ -70,80 +70,76 @@ export const myProjects = [
         },
       ],
     },
-  //   {
-  //     id: 3,
-  //     title: "Blazor Web App",
-  //     description:
-  //       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-  //     subDescription: [
-  //       "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-  //       "Implemented API interactions using .NET Core for a robust backend.",
-  //       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-  //       "Integrated SQLite for efficient client-side database storage.",
-  //     ],
-  //     href: "",
-  //     logo: "",
-  //     image: "/assets/projects/blazor-app.jpg",
-  //     tags: [
-  //       {
-  //         id: 1,
-  //         name: "Blazor",
-  //         path: "/assets/logos/blazor.svg",
-  //       },
-  //       {
-  //         id: 2,
-  //         name: ".NET Core",
-  //         path: "/assets/logos/dotnetcore.svg",
-  //       },
-  //       {
-  //         id: 3,
-  //         name: "SQLite",
-  //         path: "/assets/logos/sqlite.svg",
-  //       },
-  //       {
-  //         id: 4,
-  //         name: "TailwindCSS",
-  //         path: "/assets/logos/tailwindcss.svg",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "C++ Game Engine",
-  //     description:
-  //       "A lightweight C++ game engine designed for 2D and 3D game development.",
-  //     subDescription: [
-  //       "Built a powerful rendering engine using OpenGL and C++.",
-  //       "Developed a physics engine with collision detection and particle effects.",
-  //       "Implemented a scripting system for easy game customization.",
-  //       "Optimized performance with multi-threading and efficient memory management.",
-  //     ],
-  //     href: "",
-  //     logo: "",
-  //     image: "/assets/projects/game-engine.jpg",
-  //     tags: [
-  //       {
-  //         id: 1,
-  //         name: "C++",
-  //         path: "/assets/logos/cplusplus.svg",
-  //       },
-  //       {
-  //         id: 2,
-  //         name: "C#",
-  //         path: "/assets/logos/csharp.svg",
-  //       },
-  //       {
-  //         id: 3,
-  //         name: "Git",
-  //         path: "/assets/logos/git.svg",
-  //       },
-  //       {
-  //         id: 4,
-  //         name: "Microsoft",
-  //         path: "/assets/logos/microsoft.svg",
-  //       },
-  //     ],
-  //   },
+    {
+      id: 3,
+      title: "PrismAI: Next-Gen Multi-Agent",
+      description:
+        "PrismAI is a state-of-the-art Multi-Agent Collaborative System that automates deep, high-quality web research and report drafting.",
+      subDescription: [
+        "Using LangChain and powered by Mistral AI, PrismAI coordinates multiple specialized AI agents that work together in a structured pipeline.",
+        "PrismAI features a futuristic, ultra-premium Web Dashboard built on Streamlit, layered with custom WebGL (Three.js) 3D interactive graphics.",
+      ],
+      href: "https://shorturl.at/XF8jt",
+      logo: "",
+      image: "/assets/projects/Screenshot (59).png",
+      tags: [
+        {
+          id: 1,
+          name: "Python",
+          path: "/assets/logos/python-svgrepo-com.svg",
+        },
+        {
+          id: 2,
+          name: "Langchain",
+          path: "/assets/logos/Langchain--Streamline-Simple-Icons.svg",
+        },
+        {
+          id: 3,
+          name: "Mistral-AI",
+          path: "/assets/logos/mistral-color.svg",
+        },
+        {
+          id: 4,
+          name: "Tavily Search",
+          path: "/assets/logos/tavily-logo.svg",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Emotion Engine — Deep Learning NLP Classifier",
+      description:
+        "An end-to-end Natural Language Processing (NLP) classification system that analyzes textual input to detect emotional state.",
+      subDescription: [
+        "The engine is trained on a custom Bidirectional GRU (BiGRU) neural network, served using FastAPI's high-speed async endpoints, and presents predictions in a modern, dynamic, mood-reactive web application.",
+        "Detailed comparisons between SimpleRNN, LSTM, GRU, and Bidirectional GRU.",
+      ],
+      href: "https://mood-predict.onrender.com/",
+      logo: "",
+      image: "/assets/projects/Emotion.png",
+      tags: [
+        {
+          id: 1,
+          name: "Python",
+          path: "/assets/logos/python-svgrepo-com.svg",
+        },
+        {
+          id: 2,
+          name: "TensorFlow",
+          path: "/assets/logos/TensorFlow.svg",
+        },
+        {
+          id: 3,
+          name: "HuggingFace",
+          path: "/assets/logos/HuggingFace.svg",
+        },
+        {
+          id: 4,
+          name: "FastAPI",
+          path: "/assets/logos/FastAPI.svg",
+        },
+      ],
+    },
   //   {
   //     id: 5,
   //     title: "WordPress Custom Theme",
