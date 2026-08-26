@@ -1,6 +1,40 @@
 export const myProjects = [
-    {
-      id: 1,
+  {
+    id: 1,
+    title: "Real-Time Workspace Collaboration Platform",
+    description:
+      "A real-time team communication platform inspired by Slack, built to enhance collaboration with modern messaging and video conferencing features.",
+    subDescription: [
+      "I developed a Slack-inspired collaboration app with real-time chat and video calling. It uses Clerk for secure authentication with RBAC, a responsive React + Tailwind CSS frontend, and a Node.js/Express backend connected to MongoDB for scalable data storage. The project highlights my skills in authentication, UI design, and real-time communication.",
+    ],
+    href: "https://alpha-slack-frontend.vercel.app/auth",
+    logo: "",
+    image: "/assets/projects/Screenshot (47).png",
+    tags: [
+      {
+        id: 1,
+        name: "Clerk",
+        path: "/assets/logos/idC1jR8p-G_logos.jpeg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/icons8-javascript.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },    
+  {
+      id: 2,
       title: "Video Calling & Realtime Chatting App",
       description:
         "Facilitates real-time video calling and instant messaging between users, enabling seamless live interactions and chat within the application.",
@@ -37,41 +71,77 @@ export const myProjects = [
       ],
     },
     {
-      id: 2,
-      title: "Slack Clone with Video Call",
+      id: 3,
+      title: "TerrorGT: Multi-Model AI",
       description:
-        "A real-time team communication platform inspired by Slack, built to enhance collaboration with modern messaging and video conferencing features.",
+        "TerrorGT is an agentic AI workspace for asking questions, searching the web, querying uploaded files, remembering useful facts, checking live information, and switching between multiple LLM providers from one interface.",
       subDescription: [
-        "I developed a Slack-inspired collaboration app with real-time chat and video calling. It uses Clerk for secure authentication with RBAC, a responsive React + Tailwind CSS frontend, and a Node.js/Express backend connected to MongoDB for scalable data storage. The project highlights my skills in authentication, UI design, and real-time communication.",
+        "Multi-provider chat with Mistral, Groq, and Google Gemini models.",
+        "Document RAG for PDF, DOCX, TXT, Markdown, Python, and CSV files.",
       ],
-      href: "https://alpha-slack-frontend.vercel.app/auth",
+      href: "https://system-agent-01.onrender.com/",
       logo: "",
-      image: "/assets/projects/Screenshot (47).png",
+      image: "/assets/projects/TerrorGT.png",
       tags: [
         {
           id: 1,
-          name: "Clerk",
-          path: "/assets/logos/idC1jR8p-G_logos.jpeg",
+          name: "Python",
+          path: "/assets/logos/python-svgrepo-com.svg",
         },
         {
           id: 2,
-          name: "React",
-          path: "/assets/logos/react.svg",
+          name: "LangGraph",
+          path: "/assets/logos/langgraph_icon.svg",
         },
         {
           id: 3,
-          name: "JavaScript",
-          path: "/assets/logos/icons8-javascript.svg",
+          name: "Gemini",
+          path: "/assets/logos/gemini_icon.svg",
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
+          name: "FastAPI",
+          path: "/assets/logos/FastAPI.svg",
         },
       ],
     },
     {
-      id: 3,
+      id: 4,
+      title: "Agentic TripmMate",
+      description:
+        "A multi-agent AI travel planner that finds live flight data, researches hotels, and creates a practical day-by-day itinerary from one natural-language request.",
+      subDescription: [
+        "Agentic TripMate is a FastAPI application powered by LangGraph. It combines external travel data with LLM reasoning to generate a complete travel plan.",
+        "Built with: FastAPI, LangGraph, Groq, AviationStack, Tavily, PostgreSQL, Jinja2, HTML, CSS, and JavaScript.",
+      ],
+      href: "https://agentic-bot-01.onrender.com/",
+      logo: "",
+      image: "/assets/projects/TripMate.png",
+      tags: [
+        {
+          id: 1,
+          name: "Python",
+          path: "/assets/logos/python-svgrepo-com.svg",
+        },
+        {
+          id: 2,
+          name: "LangGraph",
+          path: "/assets/logos/langgraph_icon.svg",
+        },
+        {
+          id: 3,
+          name: "Groq",
+          path: "/assets/logos/groq_icon.svg",
+        },
+        {
+          id: 4,
+          name: "PostgreSQL",
+          path: "/assets/logos/postgresql_icon.svg",
+        },
+      ],
+    },
+    {
+      id: 5,
       title: "PrismAI: Next-Gen Multi-Agent",
       description:
         "PrismAI is a state-of-the-art Multi-Agent Collaborative System that automates deep, high-quality web research and report drafting.",
@@ -106,7 +176,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 4,
+      id: 6,
       title: "Emotion Engine — Deep Learning NLP Classifier",
       description:
         "An end-to-end Natural Language Processing (NLP) classification system that analyzes textual input to detect emotional state.",
