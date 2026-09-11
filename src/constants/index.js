@@ -81,7 +81,7 @@ export const myProjects = [
       ],
       href: "https://system-agent-01.onrender.com/",
       logo: "",
-      image: "/assets/projects/TerrorGT.png",
+      image: "/assets/projects/TerrorGT Homepage.png",
       tags: [
         {
           id: 1,
@@ -102,6 +102,41 @@ export const myProjects = [
           id: 4,
           name: "FastAPI",
           path: "/assets/logos/FastAPI.svg",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "DealDrop — Price Tracker",
+      description:
+        "Track prices from any e-commerce site, get instant email alerts when prices fall, and visualize price history with beautiful charts.",
+      subDescription: [
+        "AI-Powered Scraping	Uses Firecrawl to extract product name, price, currency, and image from any URL",
+        "Clean, Modern UI	Built with shadcn/ui, Lucide icons, and Sonner toasts",
+      ],
+      href: "https://pricetrackethree.vercel.app/",
+      logo: "",
+      image: "/assets/projects/TrackerPrice.png",
+      tags: [
+        {
+          id: 1,
+          name: "Nextjs",
+          path: "/assets/logos/nextjsicon.svg",
+        },
+        {
+          id: 2,
+          name: "React",
+          path: "/assets/logos/react.svg",
+        },
+        {
+          id: 3,
+          name: "Supabase",
+          path: "/assets/logos/supabaseicon.svg",
+        },
+        {
+          id: 4,
+          name: "FireCrawl",
+          path: "/assets/logos/firecrawllight.svg",
         },
       ],
     },
