@@ -35,43 +35,6 @@ export const myProjects = [
   },    
   {
       id: 2,
-      title: "Video Calling & Realtime Chatting App",
-      description:
-        "Facilitates real-time video calling and instant messaging between users, enabling seamless live interactions and chat within the application.",
-      subDescription: [
-        "Built a scalable web application using React.js for the frontend and Express.js for backend services, integrating real-time communication features for dynamic user engagement",
-        // "Implemented secure authentication and robust database management to ensure privacy and data integrity.",
-        "Designed a responsive user interface with Tailwind CSS, enhancing user experience across devices",
-        // "Added real-time video streaming capabilities using Stream and developed instant chat features, supporting efficient and interactive collaboration.",
-      ],
-      href: "https://chitchat-idng.onrender.com/login",
-      logo: "",
-      image: "/assets/projects/Screenshot (42).png",
-      tags: [
-        {
-          id: 1,
-          name: "React.js",
-          path: "/assets/logos/icons8-react-native.svg",
-        },
-        {
-          id: 2,
-          name: "JavaScript",
-          path: "/assets/logos/icons8-javascript.svg",
-        },
-        {
-          id: 3,
-          name: "Express.js",
-          path: "/assets/logos/icons8-express-js.svg",
-        },
-        {
-          id: 4,
-          name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
-        },
-      ],
-    },
-    {
-      id: 3,
       title: "TerrorGT: Multi-Model AI",
       description:
         "TerrorGT is an agentic AI workspace for asking questions, searching the web, querying uploaded files, remembering useful facts, checking live information, and switching between multiple LLM providers from one interface.",
@@ -177,6 +140,43 @@ export const myProjects = [
     },
     {
       id: 5,
+      title: "Video Calling & Realtime Chatting App",
+      description:
+        "Facilitates real-time video calling and instant messaging between users, enabling seamless live interactions and chat within the application.",
+      subDescription: [
+        "Built a scalable web application using React.js for the frontend and Express.js for backend services, integrating real-time communication features for dynamic user engagement",
+        // "Implemented secure authentication and robust database management to ensure privacy and data integrity.",
+        "Designed a responsive user interface with Tailwind CSS, enhancing user experience across devices",
+        // "Added real-time video streaming capabilities using Stream and developed instant chat features, supporting efficient and interactive collaboration.",
+      ],
+      href: "https://chitchat-idng.onrender.com/login",
+      logo: "",
+      image: "/assets/projects/Screenshot (42).png",
+      tags: [
+        {
+          id: 1,
+          name: "React.js",
+          path: "/assets/logos/icons8-react-native.svg",
+        },
+        {
+          id: 2,
+          name: "JavaScript",
+          path: "/assets/logos/icons8-javascript.svg",
+        },
+        {
+          id: 3,
+          name: "Express.js",
+          path: "/assets/logos/icons8-express-js.svg",
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: "/assets/logos/tailwindcss.svg",
+        },
+      ],
+    },
+    {
+      id: 6,
       title: "PrismAI: Next-Gen Multi-Agent",
       description:
         "PrismAI is a state-of-the-art Multi-Agent Collaborative System that automates deep, high-quality web research and report drafting.",
@@ -211,7 +211,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "Emotion Engine — Deep Learning NLP Classifier",
       description:
         "An end-to-end Natural Language Processing (NLP) classification system that analyzes textual input to detect emotional state.",
